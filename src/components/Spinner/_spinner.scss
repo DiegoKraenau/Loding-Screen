@@ -1,5 +1,6 @@
 @import "../../sass/styles.scss";
 
+/*
 .overlay {
   width: 100%;
   height: 100vh;
@@ -13,6 +14,8 @@
   justify-content: center;
   align-items: center;
 }
+*/
+
 
 .spinner {
   width: 190px;
@@ -46,4 +49,44 @@
     animation: load-spinner 1.2s linear infinite;
     animation-delay: -0.9s;
   }
+}
+
+
+.spinner__circle {
+  color: official;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+
+  & div {
+    transform-origin: 40px 40px;
+    animation: load-spinner 1.2s linear infinite;
+
+    &:after {
+        content: " ";
+        display: block;
+        position: absolute;
+        top: 3px;
+        left: 37px;
+        width: 6px;
+        height: 18px;
+        border-radius: 20%;
+        background: rgb(71, 70, 70);
+    }
+  }
+
+  
+  $variable: -1.1s;
+  @for $i from 1 through 12 {
+    & :nth-child(#{$i}) {
+      transform: rotate(#{($i - 1) * 30deg});
+      animation-delay: $variable;
+    }
+    $variable: $variable + 0.1;
+  }
+}
+
+.aea{
+  color: rgba(161, 196, 126, 0.844);
 }

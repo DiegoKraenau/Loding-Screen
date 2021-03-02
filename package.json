@@ -1,6 +1,6 @@
 {
   "name": "loading-screen-kraenau",
-  "version": "0.2.0",
+  "version": "1.2.1",
   "author": "Diego Kraenau",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
@@ -10,6 +10,7 @@
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
     "sass": "^1.32.8",
+    "styled-components": "^5.2.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {

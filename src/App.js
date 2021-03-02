@@ -1,11 +1,11 @@
-import { Fragment } from "react";
 import Spinner from "./components/Spinner/Spinner";
 import "./sass/styles.scss";
 
 
 function App() {
   return (
-    <Spinner></Spinner>
+    <Spinner type="circle">
+    </Spinner>
   );
 }
 
