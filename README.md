@@ -10,7 +10,8 @@ It is a simple component that was created for the only reason of providing a res
 
 
 #### ✓ Props (Optional for personalized colors)
-#### < Spinner backgroundColor="color" spinnerColor="color" > </ Spinner >
+#### < Spinner type="type"  backgroundColor="color" spinnerColor="color" > </ Spinner >
+##### Available types for spinner : square(default),circle
 
 ### ◦Demo:
 ✓ Default Spinner (Active default colors only calling the component without props)
