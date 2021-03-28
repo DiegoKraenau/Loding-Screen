@@ -40,6 +40,7 @@ $grey-overlay:rgba(90, 90, 90, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative !important;
 
   & :nth-child(1) {
     width: 20%;
