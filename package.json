@@ -1,6 +1,6 @@
 {
   "name": "loading-screen-kraenau",
-  "version": "1.4.4",
+  "version": "1.4.7",
   "author": "Diego Kraenau",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",

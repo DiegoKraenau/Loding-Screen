@@ -1,21 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-$grey:rgb(71, 70, 70);
-$grey-overlay:rgba(90, 90, 90, 0.5);
-
-@keyframes load-spinner{
-  0%{
-      opacity: 1;
-  }
-
-  100%{
-      opacity: 0;
-  }
-}
+@import "./sass/styles.scss";
 
 /*
 .overlay {
@@ -40,7 +23,8 @@ $grey-overlay:rgba(90, 90, 90, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative !important;
+  position: fixed !important;
+  z-index: 999 !important;
 
   & :nth-child(1) {
     width: 20%;
@@ -104,3 +88,14 @@ $grey-overlay:rgba(90, 90, 90, 0.5);
     $variable: $variable + 0.1;
   }
 }
+
+.aea{
+  color: rgba(161, 196, 126, 0.844);
+}
+
+
+/*
+select,a,input,select{
+  z-index: -1 !important;
+}
+*/

@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _templateObject = _taggedTemplateLiteral(['\n        width: 100%;\n        height: 100vh;\n        position: fixed;\n        top: 0;\n        background: ', ';\n\n        display: flex;\n        justify-content: center;\n        align-items: center;\n    '], ['\n        width: 100%;\n        height: 100vh;\n        position: fixed;\n        top: 0;\n        background: ', ';\n\n        display: flex;\n        justify-content: center;\n        align-items: center;\n    ']),
+var _templateObject = _taggedTemplateLiteral(['\n        width: 100%;\n        height: 100vh;\n        position: fixed;\n        top: 0;\n        background: ', ';\n        z-index:999;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n    '], ['\n        width: 100%;\n        height: 100vh;\n        position: fixed;\n        top: 0;\n        background: ', ';\n        z-index:999;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n    ']),
     _templateObject2 = _taggedTemplateLiteral(['\n         div:after{\n            background:', ';\n        }\n    '], ['\n         div:after{\n            background:', ';\n        }\n    ']),
     _templateObject3 = _taggedTemplateLiteral(['\n        \n        :nth-child(1) > * {\n            background: ', ';\n        }\n    '], ['\n        \n        :nth-child(1) > * {\n            background: ', ';\n        }\n    ']);
 

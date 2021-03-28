@@ -20,14 +20,14 @@ const Spinner = ({ type, backgroundColor, spinnerColor }) => {
 
     const SpinnerCircle = styled.div`
          div:after{
-            background:${spinnerColor === undefined || spinnerColor.length === 0 ? (defaultBackground) : (spinnerColor)};
+            background:${spinnerColor === undefined  || spinnerColor.length === 0 ? (defaultBackground) : (spinnerColor)};
         }
     `
 
     const SpinnerSquare = styled.div`
         
         :nth-child(1) > * {
-            background: ${spinnerColor === undefined || spinnerColor.length === 0 ? (defaultBackground) : (spinnerColor)};
+            background: ${spinnerColor === undefined  || spinnerColor.length === 0 ? (defaultBackground) : (spinnerColor)};
         }
     `
 
@@ -74,7 +74,9 @@ const Spinner = ({ type, backgroundColor, spinnerColor }) => {
     }
 
     return (
-        <div class="loading">Loading&#8230;</div>
+        <SpinnerBackground>
+            {renderSwitch(type)}
+        </SpinnerBackground>
 
     );
 }
